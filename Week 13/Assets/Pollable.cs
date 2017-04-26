@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Poolable : MonoBehaviour {
-	
+	public enum types {BULLET, ENEMY}
+	public types betterName;
 	void Start () {
 		Setup ();
 	}
